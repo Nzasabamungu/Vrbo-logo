@@ -1,5 +1,46 @@
 body{
-    background-color: aqua;
+    /* padding: 1rem; */
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 50px 20px 50px;
+}
+.right-side{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.right-side button{
+    padding: 0 35px;
+    border-radius: 25px;
+    background-color: white;
+    height: 40px;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+nav ul li {
+    padding-right: 30px;
+}
+nav ul li:hover{
+    cursor: pointer;
+}
+.background-picture form{
+ display: flex;
+ justify-content: space-between;
+ background-color: white;
+ padding: 30px;
+
+}
+.background-picture form input {
+    padding: 15px 50px;
+    border-radius: 10px;
+}
+.background-picture form button {
+
 }
 .image-1-line{
     display:flex;
@@ -10,7 +51,9 @@ body{
     height:100px;
 }
 .background-picture{
-padding-top: 200px;
+text-align: center;
+color:white;
+padding: 200px;
 background-image: url(/2022-06-05_Vrbo_APFT2_Barcelona_Therin_House_2_4605_2.jpeg);
 background-size: cover;
 background-position: center;

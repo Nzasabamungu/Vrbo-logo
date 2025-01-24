@@ -9,25 +9,29 @@
   <body>
     <div class="nav-bar">
       <nav>
-        <img src="/logo.svg" />
-        <button>Download the app</button>
-        <ul>
-          <li>travel planner</li>
-          <li>register accommodation</li>
-          <li>Help</li>
-          <li>My Travel</li>
-          <li>Register</li>
-        </ul>
+        <img src="/logo.svg" class="logo" />
+        <div class="right-side">   
+          <button>Download the app</button>
+          <ul>
+            <li>travel planner</li>
+            <li>register accommodation</li>
+            <li>Help</li>
+            <li>My Travel</li>
+            <li>Register</li>
+          </ul>
+        </div>
       </nav>
     </div>
     <div class="background-picture">
-      <h1>Everything is fine, you book with FeWo-direkt</h1>
+      <div class="title">
+        <h1>Everything is fine, you book with FeWo-direkt</h1>
+      </div>
       <form action="/submit" method="post">
         <input type="text" placeholder="Where should we go?" />
         <input type="date" name="date" />
         <input type="text" placeholder="2 travelers" />
+        <button>Seek</button>
       </form>
-      <button>Seek</button>
     </div>
     <div class="register-line">
       <p>Sign in to message the host and get more details about a listing.</p>
