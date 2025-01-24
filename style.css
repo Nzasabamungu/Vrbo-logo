@@ -1,3 +1,16 @@
 body{
     background-color: aqua;
 }
+.image-1-line{
+    display:flex;
+    gap:30px
+}
+.image1{
+    width:200px;
+    height:100px;
+}
+.background-picture{
+background-image: url(/2022-06-05_Vrbo_APFT2_Barcelona_Therin_House_2_4605_2.jpeg);
+background-size: cover;
+background-position: center;
+}
